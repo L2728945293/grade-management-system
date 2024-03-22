@@ -1,0 +1,14 @@
+﻿  Function.c
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.h(5,58): warning C4028: 形参 2 与声明不同
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.h(14,25): warning C4028: 形参 1 与声明不同
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.h(16,33): warning C4028: 形参 1 与声明不同
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.h(18,29): warning C4028: 形参 1 与声明不同
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.h(20,54): warning C4028: 形参 2 与声明不同
+  main.c
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.h(5,58): warning C4028: 形参 2 与声明不同
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.h(14,25): warning C4028: 形参 1 与声明不同
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.h(16,33): warning C4028: 形参 1 与声明不同
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.h(18,29): warning C4028: 形参 1 与声明不同
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.h(20,54): warning C4028: 形参 2 与声明不同
+  正在生成代码...
+  curriculum design.vcxproj -> D:\Cpp_projects\cpp sj\curriculum design\x64\Debug\curriculum design.exe

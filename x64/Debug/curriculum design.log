@@ -1,42 +1,40 @@
 ﻿  Function.c
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.h(30,25): warning C4028: 形参 1 与声明不同
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.h(32,33): warning C4028: 形参 1 与声明不同
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.h(34,29): warning C4028: 形参 1 与声明不同
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.h(36,54): warning C4028: 形参 2 与声明不同
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.h(38,51): warning C4028: 形参 2 与声明不同
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.h(40,50): warning C4028: 形参 2 与声明不同
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.h(44,56): warning C4028: 形参 2 与声明不同
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(148,23): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(149,13): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(158,13): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(159,14): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(147,22): warning C4133: “初始化”: 从“Competiton *”到“Competition *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(157,22): warning C4133: “初始化”: 从“Competiton *”到“Competition *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(178,23): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(179,13): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(188,13): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(189,14): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(177,22): warning C4133: “初始化”: 从“Competiton *”到“Competition *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(187,22): warning C4133: “初始化”: 从“Competiton *”到“Competition *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(204,23): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(205,13): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.h(50,57): warning C4028: 形参 2 与声明不同
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(45,8): warning C4133: “=”: 从“Competiton *”到“Competition *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(43,22): warning C4133: “初始化”: 从“Competiton *”到“Competition *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(174,51): warning C4047: “函数”:“int”与“char *”的间接级别不同
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(174,47): warning C4024: “Search_number”: 形参和实参 2 的类型不同
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(213,23): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
 D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(214,13): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(215,14): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(203,22): warning C4133: “初始化”: 从“Competiton *”到“Competition *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(213,22): warning C4133: “初始化”: 从“Competiton *”到“Competition *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(230,23): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(231,13): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(240,13): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(241,14): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(229,22): warning C4133: “初始化”: 从“Competiton *”到“Competition *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(239,22): warning C4133: “初始化”: 从“Competiton *”到“Competition *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(226,14): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(227,15): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(212,22): warning C4133: “初始化”: 从“Competiton *”到“Competition *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(225,23): warning C4133: “初始化”: 从“Competiton *”到“Competition *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(252,23): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(253,13): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(265,14): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(266,15): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(251,22): warning C4133: “初始化”: 从“Competiton *”到“Competition *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(264,23): warning C4133: “初始化”: 从“Competiton *”到“Competition *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(282,23): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(283,13): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(295,14): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(296,15): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(281,22): warning C4133: “初始化”: 从“Competiton *”到“Competition *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(294,23): warning C4133: “初始化”: 从“Competiton *”到“Competition *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(312,23): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(313,13): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(325,14): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(326,15): warning C4133: “=”: 从“Competition *”到“Competiton *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(311,22): warning C4133: “初始化”: 从“Competiton *”到“Competition *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(324,23): warning C4133: “初始化”: 从“Competiton *”到“Competition *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(509,51): warning C4047: “函数”:“int”与“char *”的间接级别不同
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(509,47): warning C4024: “Search_number”: 形参和实参 2 的类型不同
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(604,51): warning C4047: “函数”:“int”与“char *”的间接级别不同
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(604,47): warning C4024: “Search_number”: 形参和实参 2 的类型不同
   main.c
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.h(30,25): warning C4028: 形参 1 与声明不同
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.h(32,33): warning C4028: 形参 1 与声明不同
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.h(34,29): warning C4028: 形参 1 与声明不同
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.h(36,54): warning C4028: 形参 2 与声明不同
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.h(38,51): warning C4028: 形参 2 与声明不同
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.h(40,50): warning C4028: 形参 2 与声明不同
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.h(44,56): warning C4028: 形参 2 与声明不同
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.h(50,57): warning C4028: 形参 2 与声明不同
   正在生成代码...
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(14): warning C4715: “Search_number”: 不是所有的控件路径都返回值
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(25): warning C4715: “Search_name”: 不是所有的控件路径都返回值
   curriculum design.vcxproj -> D:\Cpp_projects\cpp sj\curriculum design\x64\Debug\curriculum design.exe

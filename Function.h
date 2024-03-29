@@ -24,27 +24,30 @@ void InsertProj0_name(struct Project* head, char name[], struct Student* head_s)
 void InsertProj1_number(struct Project* head, int number, struct Student* head_s, FILE* fp);
 void InsertProj1_name(struct Project* head, char name[], struct Student* head_s, FILE* fp);
 
-void InsertResearch(struct researchAchievement* head);
+void InsertResearch0_number(struct researchAchievement* head, int number, struct Student* head_s);
+void InsertResearch0_name(struct researchAchievement* head, char name[], struct Student* head_s);
+void InsertResearch1_number(struct researchAchievement* head, int number, struct Student* head_s, FILE* fp);
+void InsertResearch1_name(struct researchAchievement* head, char name[], struct Student* head_s, FILE* fp);
 
-float getGPA(int number);
-float getGPA(char* name);
-int getRank(int number,int term);
-int getRank(char* name,int term);
-int getTotalRank(int number);
-int getTotalRank(char* name);
-void getCompetition(struct Student* head, int number);
-void getCompetition(struct Student* head, char* name);
-void getResearch(struct Student* head, int number);
-void getResearch(struct Student* head, char* name);
-void getProject(struct Student* head, int number);
-void getProject(struct Student* head, char* name);
+
+double getCurrGPA(struct Student* curr);
+double getTotalGPA(struct Student* curr);
+int getRank(struct Student* curr, int term);
+int getTotalRank(struct Student* curr);
+
+void getCompetition_student(struct Student* curr);
+void getResearch_student(struct Student* curr);
+void getProject_student(struct Student* curr);
+
 void calcCurrGpa(struct Student* curr);
+void calcTotalGpa(struct Student* curr);
+void calcTermGPA(struct Student* curr, int term);
 
-void amendStudentInfo(struct Student* head,int number);//amend包括修改信息和删除
-void amendStudentInfo(struct Student* head, char *name);
+void sortByGpa(struct Student* head);
+void sortByTermGPA(struct Student* head, int term);
+
+void amendStudentInfo(struct Student* head, int number);//amend包括修改信息和删除
+void amendStudentInfo(struct Student* head, char name[]);
 void amendCurrInfo(struct Curriculum* head);//同时改变student中的Info
 void amendProjInfo(struct Project* head);
 void amendResearch(struct researchAchievement* head);
-
-void sortByGpa(struct Student* head);
-

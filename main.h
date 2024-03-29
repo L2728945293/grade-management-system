@@ -18,9 +18,8 @@ struct researchAchievement {
 	struct Member* head;
 	char journalName[30];
 	char meetingName[30];
-	char publishTime[30];
 	double increaseGpa;
-	char level;//'A'->0.4	'B'->0.2	'C'->0.1 'D'->0.05	'D'->0.02	'E'->0.01
+	char level;//'A'->0.4	'B'->0.2	'C'->0.1 'D'->0.05	'E'->0.02	'F'->0.01
 	int year,month,day;
 	int reel;//卷
 	int period;//期
@@ -61,7 +60,8 @@ struct Student {
 	double CurrGpa;
 	double increaseGPA;//<=0.4
 	double totalGpa;
-	int term1, term2, term3, term4, term5, term6, term7, term8;//各学期排名
+	double termGPA[9];
+	int term[9];//各学期排名
 	int totalRank;//总排名
 	int number;//学号
 	int gender;//0女1男

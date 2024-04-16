@@ -1,11 +1,13 @@
 #pragma once
 struct Curriculum {
-	char name[30];
-	double score;
-	char grade;
+	char name[100];
+	double score;//分数
+	double grade;//绩点
 	int term;
-	double credit;
+	double credit;//学分
 	struct Curriculum* next;
+	int num[5];//<60 60-70 70-80 80-90 90-100
+	struct Member* head;
 };
 struct Member {
 	char name[30];
@@ -14,10 +16,10 @@ struct Member {
 	struct Member* next;
 };
 struct researchAchievement {
-	char paperName[30];
+	char paperName[100];
 	struct Member* head;
-	char journalName[30];
-	char meetingName[30];
+	char journalName[100];
+	char meetingName[100];
 	int JorM;//1期刊还是0会议
 	double increaseGpa;
 	char level;//'A'->0.4	'B'->0.2	'C'->0.1 'D'->0.05	'E'->0.02	'F'->0.01
@@ -29,8 +31,8 @@ struct researchAchievement {
 	struct researchAchievement* next;
 };
 struct Competition {
-	char name[30];
-	char HostName[30];
+	char name[100];
+	char HostName[100];
 	struct Member* head;
 	int year, month, day;
 	char grade;//A.B.C
@@ -41,9 +43,9 @@ struct Competition {
 
 struct Project {
 	struct Member* head;//rank1为负责人 2为第二名
-	char name[30];
+	char name[100];
 	int number;
-	char teacherName[30];
+	char teacherName[100];
 	int year1, month1, day1;//立项
 	int year2, month2, day2;//结项
 	double increaseGpa;
@@ -54,9 +56,9 @@ struct Student {
 	struct researchAchievement* head_ach;
 	struct Competition* head_cmp;
 	struct Project* head_pro;
-	char name[30];
-	char college[30];
-	char major[30];
+	char name[100];
+	char college[100];
+	char major[100];
 	int curriculumNum;//课程数目
 	double CurrGpa;
 	double increaseGPA;//<=0.4
@@ -73,6 +75,6 @@ struct Student {
 
 struct Teacher {
 	int number;
-	char password[20];
+	char password[100];
 	struct Teacher* next;
 };

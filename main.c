@@ -5,6 +5,7 @@
 #include<malloc.h>
 
 int main() {
+	//freopen("input.txt", "r", stdin);
 	struct Teacher* head = (struct Teacher*)malloc(sizeof(struct Teacher));
 	head->next = NULL;
 	struct Student* Sthead = (struct Student*)malloc(sizeof(struct Student));
@@ -18,17 +19,17 @@ int main() {
 	struct Project* Prohead = (struct Project*)malloc(sizeof(struct Project));
 	Prohead->next = NULL;
 	int login;
-	printf("欢迎来到成绩管理系统\n");
+	printf("***************欢迎来到成绩管理系统***************\n");
 	while (1) {
-		printf("\n学生端：请输入0\n教师端：请输入1\n退出请输入2\n");
+		printf("\n------学生端：请输入0------\n------教师端：请输入1------\n--------退出：请输入2------\n");
 		scanf("%d", &login);
 
 		if (login == 1) {
-			printf("注册：请输入0\n登录：请输入1\n");
+			printf("------注册：请输入0------\n------登录：请输入1------\n");
 			int choose;
 			scanf("%d", &choose);
 			if (choose == 0) Tehsignup(head);
-			if (choose == 1)teacherlogin(head,Sthead,Currhead,Achhead,Prohead,Cmphead);
+			if (choose == 1)teacherlogin(head, Sthead, Currhead, Achhead, Prohead, Cmphead);
 		}
 		else if (login == 0) studentlogin(Sthead);
 		else {

@@ -1,19 +1,10 @@
 ﻿  Function.c
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(108,40): warning C4133: “函数”: 从“Member *”到“Student *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(727,22): warning C4133: “初始化”: 从“Competiton *”到“Competition *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(734,68): warning C4029: 声明的形参表不同于定义
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(736,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 6 拥有了类型“double”
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(738,10): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 3 拥有了类型“double”
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(789,36): warning C4028: 形参 1 与声明不同
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(810,45): warning C4029: 声明的形参表不同于定义
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(825,9): warning C4477: “scanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“int”
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(928,27): warning C4133: “函数”: 从“Curriculum *”到“researchAchievement *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(940,23): warning C4133: “函数”: 从“researchAchievement *”到“Project *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(956,23): warning C4133: “函数”: 从“Curriculum *”到“Project *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(968,23): warning C4133: “函数”: 从“researchAchievement *”到“Competition *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(984,23): warning C4133: “函数”: 从“Curriculum *”到“Competition *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(1037,35): warning C4133: “函数”: 从“Project *”到“Curriculum *”的类型不兼容
-D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(1049,36): warning C4133: “函数”: 从“Competition *”到“Competiton *”的类型不兼容
-  main.c
-  正在生成代码...
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(122,40): warning C4133: “函数”: 从“Member *”到“Student *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(929,22): warning C4133: “初始化”: 从“Competiton *”到“Competition *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(936,68): warning C4029: 声明的形参表不同于定义
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(1005,36): warning C4028: 形参 1 与声明不同
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(1005,91): warning C4029: 声明的形参表不同于定义
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(1364,45): warning C4029: 声明的形参表不同于定义
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(1638,35): warning C4133: “函数”: 从“Project *”到“Curriculum *”的类型不兼容
+D:\Cpp_projects\cpp sj\curriculum design\curriculum design\Function.c(1650,36): warning C4133: “函数”: 从“Competition *”到“Competiton *”的类型不兼容
   curriculum design.vcxproj -> D:\Cpp_projects\cpp sj\curriculum design\x64\Debug\curriculum design.exe
